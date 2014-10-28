@@ -16,7 +16,7 @@ class NewVisitorTest(unittest.TestCase):
 
         # Does the page title mention to-do
         self.assertIn('To-Do', self.browser.title)
-        print("Browser title was " + browser.title)
+        print("Browser title was " + self.browser.title)
         self.fail('Finish the test!')
 
         # Does a enter a to-do item appear
