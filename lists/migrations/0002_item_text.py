@@ -16,5 +16,5 @@ class Migration(migrations.Migration):
             name='text',
             field=models.TextField(default=''),
             preserve_default=True,
-        ),
+            ),
     ]
